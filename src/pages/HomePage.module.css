@@ -1,0 +1,99 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.8em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0.5rem;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    h2 {
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .projDesctiption {
+      font-size: 0.9em;
+    }
+  }
+
+.appBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    padding-top: 1.1rem;
+    
+  }
+
+  .bodyTag {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  .workItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align:center;
+    margin: 2rem;
+    width: 70%;
+    line-height: 1.5rem;
+    border: 1px darkslateblue dotted;
+    border-radius: 35px;
+  }
+
+  .projDesctiption {
+    margin: 0 0.5rem;
+  }
+
+  .itemLink {
+    margin: 0.3rem;
+  }
+
+ div.dark {
+    background-color: var(--background-color-dark);
+    color: var(--font-color-dark);
+    min-height: 100vh;
+    width: 100%;
+  }
+
+ div.light {
+    background-color: var(--background-color-light);
+    color: var(--font-color-light);
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  a {
+    font-weight: 500;
+    color: #2057bd;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #15396f;
+  }
+
+
+  
+ 
